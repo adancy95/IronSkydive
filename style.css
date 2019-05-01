@@ -47,6 +47,11 @@ h5 {
   font-size: 1.2em;
 }
 
+p {
+  width: 60%;
+  margin: 10px auto;
+}
+
 .nav-bar {
   background-color: rgb(25, 33, 41);
   color: white;
@@ -120,6 +125,11 @@ h5 {
   letter-spacing: 0.5px;
   text-align: center;
   text-decoration: none;
+  display: block;
+  width: 150px;
+  margin: 40px auto 0 auto;
+  padding: 14px 20px 14px 20px;
+  border: 2px black solid 0.2;
 }
 
 .service-box {
@@ -147,6 +157,8 @@ h5 {
 #team .member-name{
   font-size: 1.5em;
   font-weight: 700;
+  display: block;
+  text-align: center;
 }
 
 .footer {
@@ -174,10 +186,6 @@ h5 {
 
 }
 
-p {
-  width: 60%;
-  margin: 10px auto;
-}
 
 #team hr {
   margin: 20px auto 30px auto;
@@ -186,4 +194,47 @@ p {
 
 .col {
   float: left;
+}
+.col-2{
+  width: 40%;
+}
+
+.col-3 {
+  width: 30%;
+}
+
+.col-middle {
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+
+.clearfix {
+  clear: both;
+}
+
+.map-frame {
+  height: 375px;
+  float: right;
+  width: 70%;
+}
+
+.social-networks {
+  list-style-type: none;
+}
+
+.schedule-table {
+  margin: 0 auto 40px auto;
+  font-size: 1.5em;
+
+}
+
+td {
+  border-bottom: 1px solid black;
+  padding: 5px 10px 5px 10px;
+}
+
+th {
+  border-bottom: 1px solid black;
+  padding: 5px 10px 5px 10px;
 }
